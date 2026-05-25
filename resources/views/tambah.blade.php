@@ -1,7 +1,8 @@
 @extends('template')
-@section('title', 'Data Pegawai')
+@section('title', '')
 @section('konten')
-<a href="/pegawai" class="btn btn-secondary mb-4">Kembali</a>
+
+    <a href="/pegawai" class="btn btn-secondary mb-4">Kembali</a>
 
     <div class="card">
         <div class="card-header">
@@ -50,7 +51,3 @@
         </div>
     </div>
 @endsection
-
-
-</body>
-</html>
