@@ -73,3 +73,4 @@ Route::get('/keranjangbelanja', [KeranjangBelanjaController::class, 'index']);
 Route::get('/keranjangbelanja/create', [KeranjangBelanjaController::class, 'create']);
 Route::post('/keranjangbelanja', [KeranjangBelanjaController::class, 'store']);
 Route::delete('/keranjangbelanja/{id}', [KeranjangBelanjaController::class, 'destroy']);
+
