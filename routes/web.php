@@ -59,3 +59,17 @@ Route::get('/pertemuan4-5026241184', function () { return view('pertemuan4-50262
 Route::get('/pertemuan5-dell', function () { return view('pertemuan5-dell'); });
 Route::get('/pertemuan5-simply', function () { return view('pertemuan5-simply'); });
 
+// NILAI KULIAH
+use App\Http\Controllers\NilaiKuliahController;
+
+Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index']);
+Route::get('/nilaikuliah/create', [NilaiKuliahController::class, 'create']);
+Route::post('/nilaikuliah', [NilaiKuliahController::class, 'store']);
+
+// KERANJANG BELANJA
+use App\Http\Controllers\KeranjangBelanjaController;
+
+Route::get('/keranjangbelanja', [KeranjangBelanjaController::class, 'index']);
+Route::get('/keranjangbelanja/create', [KeranjangBelanjaController::class, 'create']);
+Route::post('/keranjangbelanja', [KeranjangBelanjaController::class, 'store']);
+Route::delete('/keranjangbelanja/{id}', [KeranjangBelanjaController::class, 'destroy']);

@@ -20,7 +20,7 @@
             <div class="container-fluid">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/pegawai">Pegawai</a>
+                        <a class="nav-link" href="/pegawai">Pegawai</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PR 1</a>
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="/nilaikuliah">PR 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PR 3</a>
+                        <a class="nav-link" href="/keranjangbelanja">PR 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">EAS</a>
