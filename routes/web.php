@@ -74,3 +74,12 @@ Route::get('/keranjangbelanja/create', [KeranjangBelanjaController::class, 'crea
 Route::post('/keranjangbelanja', [KeranjangBelanjaController::class, 'store']);
 Route::delete('/keranjangbelanja/{id}', [KeranjangBelanjaController::class, 'destroy']);
 
+//route CRUD siswa
+use App\Http\Controllers\SiswaController;
+
+Route::get('/siswa', [SiswaController::class, 'index'])->name('siswa.index');
+Route::get('/siswa/create', [SiswaController::class, 'create'])->name('siswa.create');
+Route::post('/siswa', [SiswaController::class, 'store'])->name('siswa.store');
+Route::get('/siswa/{nrp}/edit', [SiswaController::class, 'edit'])->name('siswa.edit');
+Route::put('/siswa/{nrp}', [SiswaController::class, 'update'])->name('siswa.update');
+Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.destroy');
