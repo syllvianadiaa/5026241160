@@ -83,3 +83,13 @@ Route::post('/siswa', [SiswaController::class, 'store'])->name('siswa.store');
 Route::get('/siswa/{nrp}/edit', [SiswaController::class, 'edit'])->name('siswa.edit');
 Route::put('/siswa/{nrp}', [SiswaController::class, 'update'])->name('siswa.update');
 Route::delete('/siswa/{nrp}', [SiswaController::class, 'destroy'])->name('siswa.destroy');
+
+// FLASHDISK - PRA EAS
+use App\Http\Controllers\FlashdiskController;
+
+Route::get('/flashdisk', [FlashdiskController::class, 'index']);
+Route::get('/flashdisk/tambah', [FlashdiskController::class, 'create']);
+Route::post('/flashdisk/store', [FlashdiskController::class, 'store']);
+Route::get('/flashdisk/edit/{id}', [FlashdiskController::class, 'edit']);
+Route::post('/flashdisk/update', [FlashdiskController::class, 'update']);
+Route::get('/flashdisk/hapus/{id}', [FlashdiskController::class, 'hapus']);

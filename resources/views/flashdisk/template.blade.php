@@ -26,13 +26,13 @@
                         <a class="nav-link" href="/siswa">siswa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/nilaikuliah">PR 2</a>
+                        <a class="nav-link" href="/nilaikuliah">PR 2</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/keranjangbelanja">PR 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/flashdisk">PRA EAS</a>
+                        <a class="nav-link active" href="/flashdisk">PRA EAS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">EAS</a>
