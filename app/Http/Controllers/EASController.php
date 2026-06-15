@@ -52,7 +52,7 @@ class EASController extends Controller
 
     public function hapus($id)
     {
-        DB::table('nilai_peserta')->where('id  ', $id)->delete();
+        DB::table('nilai_peserta')->where('id', $id)->delete();
         return redirect('/eas');
     }
 }
