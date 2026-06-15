@@ -93,3 +93,12 @@ Route::post('/flashdisk/store', [FlashdiskController::class, 'store']);
 Route::get('/flashdisk/edit/{id}', [FlashdiskController::class, 'edit']);
 Route::post('/flashdisk/update', [FlashdiskController::class, 'update']);
 Route::get('/flashdisk/hapus/{id}', [FlashdiskController::class, 'hapus']);
+
+// EAS
+use App\Http\Controllers\EASController;
+Route::get('/eas', [EASController::class, 'index']);
+Route::get('/eas/tambah', [EASController::class, 'create']);
+Route::post('/eas/store', [EASController::class, 'store']);
+Route::get('/eas/edit/{id}', [EASController::class, 'edit']);
+Route::post('/eas/update', [EASController::class, 'update']);
+Route::get('/eas/hapus/{id}', [EASController::class, 'hapus']);

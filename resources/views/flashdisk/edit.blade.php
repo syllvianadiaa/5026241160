@@ -1,7 +1,5 @@
-@extends('template')
-
+@extends('flashdisk.template')
 @section('title', 'Edit Flashdisk')
-
 @section('konten')
 <div class="mt-4">
     <h4>Edit Data Flashdisk</h4>
